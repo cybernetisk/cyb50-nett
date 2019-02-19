@@ -1,0 +1,14 @@
+[Settings]
+ID = "50-cyb"
+
+# REDIRECTS
+# - Note that all redirects will match on first hit, so be very careful
+
+# Redirect all paths that don't match to our storage at the
+# webserver maintained by the Department of Informatics
+[[redirects]]
+  from = "/hefte/*"
+  to = "https://heim.ifi.uio.no/~cyb/hefte/:splat"
+  status = 200
+
+
