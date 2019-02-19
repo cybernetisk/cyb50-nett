@@ -8,7 +8,7 @@ ID = "50-cyb"
 # webserver maintained by the Department of Informatics
 [[redirects]]
   from = "/hefte/*"
-  to = "https://heim.ifi.uio.no/~cyb/hefte/:splat"
+  to = "https://heim.ifi.uio.no/~cyb/50-bok/:splat"
   status = 200
 
 
